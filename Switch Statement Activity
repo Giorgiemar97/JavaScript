@@ -1,0 +1,31 @@
+//Practicing Switch statements
+let day = 3; // 0 = Monday, 1 = Tuesday, etc.
+let activity;
+
+switch(day) {
+  case 0:
+    activity = "Team meeting at 9 AM";
+    break;
+  case 1:
+    activity = "Gym session after work";
+    break;
+  case 2:
+    activity = "Grocery shopping";
+    break;
+  case 3:
+    activity = "Movie night";
+    break;
+  case 4:
+    activity = "Pizza Friday!";
+    break;
+  case 5:
+    activity = "Sleep in and relax";
+    break;
+  case 6:
+    activity = "Family dinner";
+    break;
+  default:
+    activity = "Invalid day";
+}
+
+console.log(activity); // Output: "Movie night"
