@@ -1,0 +1,26 @@
+let bookSeries = ["Harry Potter 1", "Harry Potter 2", "Harry Potter 3", "Harry Potter 4", "Harry Potter 5"];
+
+for (let i = 0; i < bookSeries.length; i++) {
+  console.log(`Reading book ${i + 1}: ${bookSeries[i]}`);
+}
+
+// Output:
+// Reading book 1: Harry Potter 1
+// Reading book 2: Harry Potter 2
+// Reading book 3: Harry Potter 3
+// Reading book 4: Harry Potter 4
+// Reading book 5: Harry Potter 5
+
+//Another practice regarding books
+let totalPages = 0;
+
+for (let day = 1; day <= 7; day++) {
+  let pagesReadToday = 30;
+  totalPages += pagesReadToday;
+  console.log(`Day ${day}: Read ${pagesReadToday} pages. Total so far: ${totalPages} pages`);
+}
+
+console.log(`You read ${totalPages} pages this week!`);
+
+// Output shows daily progress, ending with:
+// "You read 210 pages this week!"
