@@ -1,0 +1,13 @@
+let booksReadThisYear = 25;
+
+if (booksReadThisYear >= 50) {
+  console.log("Wow! You're a reading champion!");
+} else if (booksReadThisYear >= 20) {
+  console.log("Great job! You're an avid reader.");
+} else if (booksReadThisYear >= 10) {
+  console.log("Nice work! Keep up the reading habit.");
+} else {
+  console.log("Try to read a bit more this year!");
+}
+
+// Output: "Great job! You're an avid reader."
