@@ -1,0 +1,8 @@
+let readingList = ["The Great Gatsby", "Moby Dick"];
+
+readingList.push("To Kill a Mockingbird"); // Adds to the end
+console.log(readingList); // Output: ["The Great Gatsby", "Moby Dick", "To Kill a Mockingbird"]
+
+readingList.unshift("Catch-22"); // Adds to the beginning
+console.log(readingList); // Output: ["Catch-22", "The Great Gatsby", "Moby Dick", "To Kill a Mockingbird"]
+
